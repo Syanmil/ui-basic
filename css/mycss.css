@@ -1,0 +1,67 @@
+
+.main {
+  width:  :100%;
+  padding-left: 15%;
+  padding-right: 15%;
+  position: relative;
+}
+.navbar {
+  position: relative;
+}
+.box {
+  float: left;
+  height: 100px;
+  width: 19%;
+  margin: 0.5%;
+  flex-wrap: wrap;
+  background-color: grey;
+}
+.afterbox {
+  clear: left;
+  background-color: grey;
+  height: 100px;
+  width: 100%;
+}
+.right {
+  position: absolute;
+  right: 0;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  margin-left: 15%;
+  margin-right: 15%;
+  width: 70%;
+  background-color: grey;
+  height: 70px;
+}
+
+form {
+  padding: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: cyan;
+}
+
+li {
+  float: left;
+}
+
+li a {
+    display: block;
+    color: #1c1f23;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: lightblue;
+}
